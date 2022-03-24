@@ -8,6 +8,7 @@
     color: rgb(54, 36, 36) ;
     background-color: bisque;
     font-size: 50px;
+    transform: translate(10px, 10px);
    
 }
 
@@ -42,7 +43,10 @@
 }
 
 body{
-    background-color: rgb(0, 204, 204);
+    background-image: linear-gradient(to bottom, #3e5474, #007b9b, #00a2a2, #44c589, #b7de62);
+    background-size: cover;  
+     
+      
     
 }
 
@@ -83,7 +87,15 @@ body{
     margin-left: 50px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
+    body{
+        background-image: linear-gradient(to bottom, #3e5474, #007b9b, #00a2a2, #44c589, #b7de62);
+        background-size: cover;  
+        
+          
+        
+    }
+
     .grilla{
         display: grid;
         grid-template-areas: "header"
