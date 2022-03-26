@@ -7,7 +7,7 @@
 .titulo{
     color: rgb(54, 36, 36) ;
     background-color: bisque;
-    font-size: 50px;
+    font-size: 40px;
     transform: translate(10px, 10px);
    
 }
@@ -24,7 +24,7 @@
         font-weight: 200;
         text-decoration: none;
         font-family: Arial;
-        margin-left: 15px;
+        
 }
 
 .border{
@@ -56,25 +56,6 @@ body{
     justify-content: flex-start;
     align-items: flex-end;
     flex-direction: row;
-    grid-area: header;
-    }
-
-.main{
-    grid-area: main;
-}
-
-
-.footer{
-    grid-area: footer;
-}
-
-.grilla{
-    display: grid;
-    grid-template-areas: "header header header"
-    "main main main"
-    "footer footer footer";
-    
-    
 }
 
 .platos{
