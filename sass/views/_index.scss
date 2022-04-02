@@ -1,0 +1,21 @@
+main{
+    .subtitulo{
+        color: rgb(25, 25, 41);
+        
+    
+    }
+    .font{  
+        font-style: oblique;
+    }
+    .platos{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .main{
+        grid-area: main;
+    }
+    }
