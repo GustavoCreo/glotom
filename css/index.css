@@ -50,14 +50,21 @@ body{
     
 }
 
-
 .header{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     flex-direction: row;
+
 }
 
+.navbar{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
 .platos{
     display: flex;
     flex-direction: row;
