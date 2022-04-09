@@ -1,5 +1,11 @@
+$estilos:(
+    cursiva:italic,
+    letra1:Georgia,
+    letra2:Arial,
+);
+
 p{
     .parrafo{
-        font-family:sans-serif;
+        font-family:map-get($map: $estilos, $key: letra1);
     }
 }

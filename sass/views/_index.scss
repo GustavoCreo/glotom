@@ -14,6 +14,32 @@ main{
     }
 }
 
+.font_plato{
+    font-size: 1rem;
+    font-style: italic; 
+}
+    
+
+.font_plato--pescados {
+    @extend .font_plato;
+    font-size: 1rem;
+    font-family:'Times New Roman'
+}
+.font_plato--vegano{
+    @extend .font_plato;
+    font-size: 1rem;
+    font-family:Helvetica;
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .fotos_index {
+    @include sizes(200px, 200px);
+ }
+ 
+
 @media screen and (max-width: 950px) {
     .main{
         grid-area: main;

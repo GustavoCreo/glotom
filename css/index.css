@@ -55,9 +55,25 @@ main .platos {
   display: flex;
   flex-direction: row; }
 
+.font_plato, .font_plato--pescados, .font_plato--vegano {
+  font-size: 1rem;
+  font-style: italic; }
+
+.font_plato--pescados {
+  font-size: 1rem;
+  font-family: 'Times New Roman'; }
+
+.font_plato--vegano {
+  font-size: 1rem;
+  font-family: Helvetica; }
+
+.fotos_index {
+  height: 200px;
+  width: 200px; }
+
 @media screen and (max-width: 950px) {
   .main {
     grid-area: main; } }
 
 p .parrafo {
-  font-family: sans-serif; }
+  font-family: Georgia; }
